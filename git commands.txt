@@ -15,3 +15,21 @@ create a folder in desktop
 7) git status   (you will see the  files is staged as color changes from red to green)
 
 8) git rm --cached file1.txt   (this command will move back your file1 from staging area to working directory)  
+
+9) git add file1.txt  (put file1.txt to staging area) 
+
+10) git status   (you will file1.txt and file2.txt are in green color because we have put the file1.txt to staging area)
+
+11) now go to the folder ..and add some content to file.txt ...lets say you add simplilearn is learning platform 
+
+12) git status   (you will see the file1 is modified) 
+
+13) git diff file1.txt   (to see what exactly is modified)
+
+14) git add file1.txt    (update the file in staging area with your updated file1 in working directory)
+
+15) git config --global user.email "akshat@apicletech.com"
+
+16) git config --global user.name"akshat"
+
+17) git commit -m"first commit"
