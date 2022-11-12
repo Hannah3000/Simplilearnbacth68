@@ -1,0 +1,17 @@
+create a folder in desktop
+
+1) git init   #start the git in your folder
+
+2) touch file1.txt
+
+3) touch file2.txt     #create blank file with name file2.txt
+
+4) ls 
+
+5) git status   ( you will see file1 and file2 as unstaged ...in red color)
+
+6) git add .
+
+7) git status   (you will see the  files is staged as color changes from red to green)
+
+8) git rm --cached file1.txt   (this command will move back your file1 from staging area to working directory)  
