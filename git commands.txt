@@ -20,7 +20,7 @@ create a folder in desktop
 
 10) git status   (you will file1.txt and file2.txt are in green color because we have put the file1.txt to staging area)
 
-11) now go to the folder ..and add some content to file.txt ...lets say you add simplilearn is learning platform 
+11) now go to the folder ..and add some content to file1.txt ...lets say you add simplilearn is learning platform 
 
 12) git status   (you will see the file1 is modified) 
 
@@ -33,3 +33,54 @@ create a folder in desktop
 16) git config --global user.name"akshat"
 
 17) git commit -m"first commit"
+
+18) git log  (to see commit details)
+
+19) git log --oneline  (to see commit details in a single line) 
+
+#.gitignore in git
+
+20) touch .gitignore
+
+21)  ##THIS IS NOT A COMMAND -> open .gitignore file and write error.log 
+
+22) git add .
+
+23) git commit -m".gitignore file created again"
+
+24) touch error.log
+
+25) ##THIS IS NOT A COMMAND -> add some content in error.log
+
+25) git status  (you will see that error.log is now ignored by git)
+
+#####CREATE AN ACCOUNT ON GITHUB##############
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
