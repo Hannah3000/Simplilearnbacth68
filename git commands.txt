@@ -57,6 +57,122 @@ create a folder in desktop
 #####CREATE AN ACCOUNT ON GITHUB##############
 
 
+#day 2 of git
+
+26) git clone https://github.com/akshu20791/Simplilearnbacth68    (this will download the repo in your laptop)
+
+#############################PUSH the files in github repo########3
+
+Create a repo on github named projectx
+
+1) create folder in laptop
+open gitbash
+
+2) git init
+
+3) touch file1 file2 file3 
+
+4) git add .
+
+5) git commit -m"first commit"
+
+6) git remote -v  (to see your remote origin,...nothing is visible)
+
+7) git remote add origin <<your repo link on github>>
+
+8) git push -u origin master    
+or
+git push -u origin main 
+or
+git push --set-upstream origin main 
+
+9) go to github account -> https://github.com/settings/tokens  -> generate the token (do not forget to enable repo while creating token)
+copy the token 
+
+##FOR WINDOWS USER
+10) in the pop up appeared go to tokens -> paste the token
+
+###for mac users
+
+10) it will ask for user name ...put your github username and in password rather then using your github credentials use the token as password
+
+11) create a new file in your github repo ...
+
+12) go to gitbash /terminal  -> git pull
+
+13) you will see that locally as well that file came which you created in sno11
+
+
+
+
+###################################################CONCEPT OF BRANCHING#########################################################
+
+
+14) git branch  (shows the  branches ...* indicate the current branch)
+
+15) git branch branch1   (create branch with name branch1)
+
+16) git branch   (this time u will see master (or main) and branch1 ...but current branch would be master or main only)
+
+17) git checkout branch1   (you will be switched to branch1)
+
+18) git branch  (you will your current branch is branch1)
+
+19) touch file1new 
+
+20) git add .
+
+21) git commit -m"c1-firstcommit in branch1"
+
+22) touch file2new
+
+23) git add .
+
+24) git commit -m"c2-second commit in branch1"
+
+25) git checkout master  (or use git checkout main --> if you are using main branch)
+
+26) touch fileinmaster
+
+27) git add .
+
+28) git commit -m"c3- commit in branch"
+
+29) git merge branch1   
+
+A black window will open ....press i to insert ...you can change the yellow color text to change the commit message
+after done press escape and :wq 
+
+30) ls   (you will see all the files)
+
+31) git log --oneline --graph
+
+
+###############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
